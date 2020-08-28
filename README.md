@@ -34,3 +34,5 @@ Here i have used Flask for making APIs.
 ![Capture](https://user-images.githubusercontent.com/53142482/91533195-1a2a4780-e92d-11ea-840b-c580f4450c5c.PNG)
 This Flask API takes input a pdf file, stores it in a local directory named uploads, uses the tika library that we dicussed in Task_2 , and converts it into a text file and stores it at local directory named downloads. 
 This files is then returned as an output as a json file using [jsonify](https://www.fullstackpython.com/flask-json-jsonify-examples.html)  from flask library,
+- ## [The second web API should take text data as input and return the most frequent words and important words (as mentioned in 3) in JSON format.](/Task_4/api_2_get_imp_words/)
+This file takes the same struture as the last api, the only difference i have made is the input and output, this api takes in input as the text file, and then caluclates the tf idf score, with respect to the clean data file that we got from task 3. 
