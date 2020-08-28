@@ -2,7 +2,7 @@
 ![Code Vector Labs](https://user-images.githubusercontent.com/53142482/91476170-3b058500-e8ba-11ea-944e-be64dd75d13f.PNG)
 
 ## This repository contains my solutions for the screening test for CodeVector AI champ program. We were given four tasks to complete. 
-(For more information, do visit the notebooks, i have tried to make them well commented detailed)
+(For more information, do visit the notebooks, i have tried to make them well commented and detailed)
 ## - Task 1: [Download 50 public profile PDFs of your connections (randomly) from LinkedIn.](/Task_1/)
 
 This folder contains the linkedin profile PDF's of 50 of my connections which are downloaded randomly. The pdf are stored in the [data](https://github.com/hardikkamboj/CV_AI_CHAMP_SCREENING_TEST/tree/master/Task_1/data) folder.
@@ -34,5 +34,3 @@ Here i have used Flask for making APIs.
 ![Capture](https://user-images.githubusercontent.com/53142482/91533195-1a2a4780-e92d-11ea-840b-c580f4450c5c.PNG)
 This Flask API takes input a pdf file, stores it in a local directory named uploads, uses the tika library that we dicussed in Task_2 , and converts it into a text file and stores it at local directory named downloads. 
 This files is then returned as an output as a json file using [jsonify](https://www.fullstackpython.com/flask-json-jsonify-examples.html)  from flask library,
-
-
