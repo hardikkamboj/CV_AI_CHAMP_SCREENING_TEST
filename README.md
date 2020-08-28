@@ -5,7 +5,7 @@
 (For more information, do visit the notebooks, i have tried to make them well commented detailed)
 ## - Task 1: [Download 50 public profile PDFs of your connections (randomly) from LinkedIn.](/Task_1/)
 
-This folder contains the directory which contains the profile PDF's of 50 of my connections which are downloaded randomly. The pdf are stored in the [data](https://github.com/hardikkamboj/CV_AI_CHAMP_SCREENING_TEST/tree/master/Task_1/data) folder.
+This folder contains the linkedin profile PDF's of 50 of my connections which are downloaded randomly. The pdf are stored in the [data](https://github.com/hardikkamboj/CV_AI_CHAMP_SCREENING_TEST/tree/master/Task_1/data) folder.
 You can view my linkedin profile [here](https://www.linkedin.com/in/hardik-kamboj-61288b19b/) 
 
 ## - Task 2: [Extract text from the above PDFs and store them in a CSV.](/Task_2/)
