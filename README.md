@@ -25,5 +25,14 @@ The [data we got from the last task](https://github.com/hardikkamboj/CV_AI_CHAMP
 In the notebook [Getting_most_frequent_words_and_essential_words.ipynb](https://github.com/hardikkamboj/CV_AI_CHAMP_SCREENING_TEST/blob/master/Task_3/Getting_most_frequent_words_and_essential_words.ipynb), i have demonstated how we can use the [clean_data.csv](https://github.com/hardikkamboj/CV_AI_CHAMP_SCREENING_TEST/blob/master/Task_3/clean_data.csv) to get the most frequent words and the most important words. 
 #### Most frequent words. 
 To get most important words i have used [Counter](https://docs.python.org/3.1/library/collections.html#:~:text=A%20Counter%20is%20a%20dict,including%20zero%20or%20negative%20counts.) from collections library. The file [freq_words_file.csv](https://github.com/hardikkamboj/CV_AI_CHAMP_SCREENING_TEST/blob/master/Task_3/freq_words_file.csv) is the csv file that we get which contains 50 rows, 1 column. For each of the 50 rows, it contains 10 most frequent words. We can attain any k frequent words by changing the agruement of the function find_k_most_frequent in [Getting_most_frequent_words_and_essential_words.ipynb](https://github.com/hardikkamboj/CV_AI_CHAMP_SCREENING_TEST/blob/master/Task_3/Getting_most_frequent_words_and_essential_words.ipynb)
-### Most important words 
+#### Most important words 
 To get the most important words, i have used the concept of [tf-idf](http://www.tfidf.com/#:~:text=Thus%2C%20the%20term%20frequency%20is,how%20important%20a%20term%20is.). I have used [Tf-idfVectorizor](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html) from sklearn to implement tf idf. In each document, the word having the maximum tf-idf score is considered to be the most important. [Imp_words_file.csv](https://github.com/hardikkamboj/CV_AI_CHAMP_SCREENING_TEST/blob/master/Task_3/imp_words_file.csv) is a csv file which contains k (k = 10) most important words for each profile. We can change the value of k, by changing the arguemtent to the function find_important_words in [Getting_most_frequent_words_and_essential_words.ipynb](https://github.com/hardikkamboj/CV_AI_CHAMP_SCREENING_TEST/blob/master/Task_3/Getting_most_frequent_words_and_essential_words.ipynb)
+
+## Task- 4 [4. Create two web APIs using flask/Django or another framework of your choice.](/Task_4/)
+Here i have used Flask for making APIs. 
+- ## [a. The first web API should take a PDF file as input and return the text in it in JSON format.](/Task_4/api_1_pdf_to_json/)
+![Capture](https://user-images.githubusercontent.com/53142482/91533195-1a2a4780-e92d-11ea-840b-c580f4450c5c.PNG)
+This Flask API takes input a pdf file, stores it in a local directory named uploads, uses the tika library that we dicussed in Task_2 , and converts it into a text file and stores it at local directory named downloads. 
+This files is then returned as an output as a json file using [jsonify](https://www.fullstackpython.com/flask-json-jsonify-examples.html)  from flask library,
+
+
